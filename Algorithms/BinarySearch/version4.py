@@ -29,7 +29,7 @@ def binary_search(list, item):
             #If the guessed number is not higher than the searched value
             #Change the lowest index of the array to there
             # middle index plus one
-            # This way you keeo the higher half
+            # This way you keep the upper half
             low = mid + 1
 
     #If the searched value is not found, return None
